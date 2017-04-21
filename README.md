@@ -38,6 +38,8 @@ _These instructions include the use of MS Visual Studio 2015_
 
 _MS Visual Studio 2015, ASP.NET MVC, C# and SSMS(Sql Server Management Studio)_
 
+Reference website: http://www.candywarehouse.com/
+
 
 ### License
 
