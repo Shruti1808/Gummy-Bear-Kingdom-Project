@@ -1,16 +1,17 @@
 # Gummy-Bear-Kingdom-Project
 ###  By Shruti Priya
 #### _A basic site for demonstrating knowledge of how to use  ASP.NET MVC and Entity Framework for Epicodus.Dated: April 21, 2017
-Site Specs
-Database
+
+## Site Specs: 
+#### Database
 
 Your database should be built code-first. We want to have simple setup on the Gummi Bear Kingdom servers, so you'll need to have a simple database migration set up, and ready to run.
 
-Landing page
+#### Landing page
 
 This is the main page, which includes some information about Gummi Bear Kingdom, and allows access to other areas of the site.
 
-Products
+#### Products
 
 The Products section should contain a list of products offered by Gummi Bear Kingdom. You should add a few "dummy" products, but don't need to add too many. The Products listed should each link to a Details page when clicked on. Products must have a name, cost and country of origin Within the details page, the admins want their product managers to be able to view, add, edit and remove products. You have some freedom to decide how that will work.
 
