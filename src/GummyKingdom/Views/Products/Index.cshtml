@@ -4,20 +4,32 @@
     ViewData["Title"] = "Gummy Kingdom";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    
-        <h1>Gummy Kingdom</h1>
-        <h4>@Html.DisplayNameFor(model => model.Name)</h4>
-        <ul>
+
+<h1>Gummy Kingdom</h1>
+<h4>@Html.DisplayNameFor(model => model.Name)</h4>
+<div class="container">
+    <div class="row col-md-12">
+
             @foreach (var listProduct in Model)
+
             {
+                <div class="col-md-4 products">
+                    <div class="product">
+                        <img src="@Html.DisplayFor(modelProduct => listProduct.Image)" alt="Alternate Text" />
+                    </div>
 
-                <li>Name: @Html.DisplayFor(modelItem => listProduct.Name) | @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })</li>
-
-                @*<li>Price: @Html.DisplayFor(modelItem => listProduct.Cost)</li>
-                <li>Country of Origin: @Html.DisplayFor(modelItem => listProduct.Country)</li>*@
+                    <div class="col-md-6">
+                    <li>Name: @Html.DisplayFor(modelItem => listProduct.Name) | @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })</li>
+                    </div>
 
             }
-        </ul>
+                
+        </div>
+    </div>
 
-<p>@Html.ActionLink("Add new Product", "Create")</p>
-    
+
+
+
+
+    <p>@Html.ActionLink("Add new Product", "Create")</p>
+

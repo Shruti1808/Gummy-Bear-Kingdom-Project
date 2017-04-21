@@ -1,0 +1,116 @@
+﻿ body{
+			margin:0;
+			padding:0;
+			background: #fff;
+			box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+		}
+
+ .navbar{margin-bottom:0;}
+
+		.container{
+			width:1200px;
+			padding-left:15px;
+			margin-left: auto;
+    		margin-right: auto;
+    		padding-right:15px;
+    		display: table;
+		}	
+
+		.container-fluid{
+			width:100%;
+			padding-right: 0;
+            padding-left: 0;
+		}
+
+		.container:before{display: table-cell;content: " ";}
+		.container-fluid:before{display: table-cell;content: " ";}
+
+		.row{
+			margin-left:-15px;
+			margin-right:-15px;
+		}
+
+		.col-md-6{
+			position: relative;
+			display: block;
+			float: left;
+			width:50%;								
+		}
+
+		.full_width_photo{
+			position: relative;
+			padding:0;
+			margin: 0;
+			height:400px;			
+			background: url(https://static.pexels.com/photos/33385/giant-rubber-bear-gummibar-gummibarchen-fruit-gums.jpg) center center no-repeat;
+			background-size: cover;
+		}
+
+		.full_width_photo .page-title{
+			position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    width: 100%;
+		    box-sizing: inherit;
+		}
+
+		.full_width_photo .title h4{
+			font-family: Raleway, sans-serif;
+			display: inline-block;		
+		    position: relative;
+			font-size: 36px;
+			color:#fff;
+			text-transform: uppercase;
+			margin:0;
+			padding:30px 0 0 0;
+			font-weight:900;
+			background-color: #282874;
+		    min-width: 300px;
+		    padding-right: 10px;
+		    z-index: 2;
+		}
+
+		.title{
+			position: relative;
+			background: linear-gradient(to right, #282874 0%, #282874 25%, transparent 25%, transparent 100%);
+		}
+
+		.title h4:after {
+		    background: linear-gradient(to top right, #282874 0%, #282874 50%, transparent 50%, transparent 100%);
+		    content: '';
+		    width: 72px;
+		    height: 100%;
+		    position: absolute;
+		    top: 0;
+		    right: -72px;
+		}
+
+		.bg-gray{
+			background:#282874;
+		}
+
+		p{
+			font-family: lato;
+			text-transform: uppercase;;
+			color:#111;
+			padding:0 0 20px 0;
+			margin:0;	
+			color:#fff;		
+		}
+
+		.detail{
+			padding: 40px 0 0 0;
+		}
+
+		.detail p{
+			font-size: 14px;
+			color:#333;
+			text-transform: lowercase;
+		}
+
+		.img-responsive{
+			width:100%;
+			height: auto;
+			background-size: 100% 100%;
+		}
