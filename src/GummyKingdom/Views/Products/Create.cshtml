@@ -1,0 +1,18 @@
+﻿@model  GummyKingdom.Models.Product
+
+
+@{
+    ViewData["Title"] = "Gummy Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Gummy Kingdom</h2>
+
+<h4>Add a new product</h4>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+    <input type="submit" value="Add new product" />
+}
+<p>@Html.ActionLink("Back to list", "Index")</p>
