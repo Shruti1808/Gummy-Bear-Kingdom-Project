@@ -1,11 +1,14 @@
-﻿@{
+﻿@model  GummyKingdom.Models.Product
+
+
+@{
     ViewData["Title"] = "Gummy Kingdom";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Edit</h2>
 <hr />
-<h4>Edit this task: @Html.DisplayFor(model => model.Description)</h4>
+<h4>Edit this task: @Html.DisplayFor(model => model.Name)</h4>
 
 @using (Html.BeginForm())
 {
@@ -18,7 +21,7 @@
     @Html.TextBoxFor(model => model.Cost)
 
     @Html.LabelFor(model => model.Country)
-    @Html.TextBoxFor(model => model.Country))
+    @Html.TextBoxFor(model => model.Country)
 
     <input type = "submit" value = "Save" />
 }

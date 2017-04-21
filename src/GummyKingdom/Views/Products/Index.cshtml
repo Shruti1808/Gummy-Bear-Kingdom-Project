@@ -11,9 +11,10 @@
             @foreach (var listProduct in Model)
             {
 
-                <li>Name: @Html.DisplayFor(modelItem => listProduct.Name)</li>
-                <li>Price: @Html.DisplayFor(modelItem => listProduct.Cost)</li>
-                <li>Country of Origin: @Html.DisplayFor(modelItem => listProduct.Country)</li>
+                <li>Name: @Html.DisplayFor(modelItem => listProduct.Name) | @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })</li>
+
+                @*<li>Price: @Html.DisplayFor(modelItem => listProduct.Cost)</li>
+                <li>Country of Origin: @Html.DisplayFor(modelItem => listProduct.Country)</li>*@
 
             }
         </ul>
