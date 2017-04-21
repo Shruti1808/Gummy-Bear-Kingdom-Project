@@ -23,6 +23,9 @@
     @Html.LabelFor(model => model.Country)
     @Html.TextBoxFor(model => model.Country)
 
+    <label>Image</label>
+    @Html.EditorFor(model => model.Image)
+
     <input type = "submit" value = "Save" />
 }
 <p>@Html.ActionLink("Back to list", "Index")</p>

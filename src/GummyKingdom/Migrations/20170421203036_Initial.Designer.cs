@@ -8,7 +8,7 @@ using GummyKingdom.Models;
 namespace GummyKingdom.Migrations
 {
     [DbContext(typeof(GummyKingdomContext))]
-    [Migration("20170421171029_Initial")]
+    [Migration("20170421203036_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,6 +26,8 @@ namespace GummyKingdom.Migrations
 
                     b.Property<string>("Country")
                         .IsRequired();
+
+                    b.Property<string>("Image");
 
                     b.Property<string>("Name")
                         .IsRequired();

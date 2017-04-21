@@ -18,6 +18,8 @@ namespace GummyKingdom.Models
         public int Cost { get; set; }
         [Required]
         public string Country { get; set; }
+       
+        public string Image { get; set; }
 
     }
 }

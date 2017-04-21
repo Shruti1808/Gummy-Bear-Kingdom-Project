@@ -4,3 +4,13 @@
     ViewData["Title"] = "Gummy Kingdom";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<h2>Details for: @Html.DisplayFor(model => model.Name)</h2>
+<div class="subheader-divider"></div>
+
+<div class="col-md-6">
+    <img src="@Html.DisplayFor(model => model.Image)" alt="Alternate Text" />
+</div>
+<h2> Product Details:</h2>
+<h3> $ @Html.DisplayNameFor(model => model.Cost) : @Html.DisplayFor(model => model.Cost)</h3>
+<h3>@Html.DisplayNameFor(model => model.Country): @Html.DisplayFor(model => model.Country)</h3>

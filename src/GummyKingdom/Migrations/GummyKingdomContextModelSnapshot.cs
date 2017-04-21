@@ -26,6 +26,8 @@ namespace GummyKingdom.Migrations
                     b.Property<string>("Country")
                         .IsRequired();
 
+                    b.Property<string>("Image");
+
                     b.Property<string>("Name")
                         .IsRequired();
 

@@ -17,6 +17,7 @@ namespace GummyKingdom.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Cost = table.Column<int>(nullable: false),
                     Country = table.Column<string>(nullable: false),
+                    Image = table.Column<string>(nullable: true),
                     Name = table.Column<string>(nullable: false)
                 },
                 constraints: table =>

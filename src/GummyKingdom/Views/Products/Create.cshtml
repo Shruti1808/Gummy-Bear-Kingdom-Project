@@ -23,6 +23,9 @@
     @Html.LabelFor(model => model.Country)
     @Html.TextBoxFor(model => model.Country)
 
+    <label>Image</label>
+    @Html.TextBoxFor(model => model.Image)
+
     <input type="submit" value="Add new product" />
 }
 <p>@Html.ActionLink("Back to list", "Index")</p>
