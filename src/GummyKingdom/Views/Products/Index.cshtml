@@ -6,30 +6,34 @@
 }
 
 <h1>Gummy Kingdom</h1>
-<h4>@Html.DisplayNameFor(model => model.Name)</h4>
+@*<h4>@Html.DisplayNameFor(model => model.Name)</h4>*@
+
 <div class="container">
-    <div class="row col-md-12">
+    <div class="flex-container">
+        @foreach (var listProduct in Model)
+        {
+            <div class="flex-object">
+                <div class="panel panel-default panel-front">
+            <div class="product panel-heading">
+                <h4>@Html.DisplayFor(modelProduct => listProduct.Name)</h4>
+                <img src="@Html.DisplayFor(modelProduct => listProduct.Image)" alt="Alternate Text" />
+            </div>
 
-            @foreach (var listProduct in Model)
 
-            {
-                <div class="col-md-4 products">
-                    <div class="product">
-                        <img src="@Html.DisplayFor(modelProduct => listProduct.Image)" alt="Alternate Text" />
-                    </div>
+            <div class="panel-body">
 
-                    <div class="col-md-6">
-                    <li>Name: @Html.DisplayFor(modelItem => listProduct.Name) | @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })</li>
-                    </div>
+                <p>Name: @Html.DisplayFor(modelProduct => listProduct.Name) | @Html.ActionLink("Details", "Details", new { id = listProduct.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = listProduct.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = listProduct.ProductId })</p>
+            </div>
+            </div>
+            </div>
+        }
 
-            }
-                
-        </div>
     </div>
+</div>
 
 
 
 
 
-    <p>@Html.ActionLink("Add new Product", "Create")</p>
+<p>@Html.ActionLink("Add new Product", "Create")</p>
 
