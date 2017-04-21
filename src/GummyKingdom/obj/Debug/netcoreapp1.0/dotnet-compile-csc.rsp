@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\bin\Debug\netcoreapp1.0\GummyKingdom.dll"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\bin\Debug\netcoreapp1.0\GummyKingdom.dll"
 -r:"C:\Users\epicodus\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\epicodus\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\epicodus\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -191,13 +191,13 @@
 -r:"C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\GummyKingdomdotnet-compile.deps.json",GummyKingdom.deps.json
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Program.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Startup.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\HomeController.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\ProductController.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.Designer.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\GummyKingdomContextModelSnapshot.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\GummyKingdomContext.cs"
-"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\Product.cs"
+-resource:"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\GummyKingdomdotnet-compile.deps.json",GummyKingdom.deps.json
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Program.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Startup.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\HomeController.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\ProductController.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.Designer.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\GummyKingdomContextModelSnapshot.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\GummyKingdomContext.cs"
+"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\Product.cs"

@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\bin\Debug\netcoreapp1.0\GummyKingdom.dll
+--temp-output:c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\
+--out:c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\bin\Debug\netcoreapp1.0\GummyKingdom.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -195,13 +195,13 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\GummyKingdomdotnet-compile.deps.json",GummyKingdom.deps.json
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Program.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Startup.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\HomeController.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\ProductController.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.Designer.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\GummyKingdomContextModelSnapshot.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\GummyKingdomContext.cs
-C:\Users\epicodus\documents\Visual Studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\Product.cs
+--resource:"c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\obj\Debug\netcoreapp1.0\GummyKingdomdotnet-compile.deps.json",GummyKingdom.deps.json
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Program.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Startup.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\HomeController.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Controllers\ProductController.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\20170421171029_Initial.Designer.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Migrations\GummyKingdomContextModelSnapshot.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\GummyKingdomContext.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\GummyKingdom\src\GummyKingdom\Models\Product.cs

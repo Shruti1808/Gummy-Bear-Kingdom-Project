@@ -1,0 +1,22 @@
+﻿@model IEnumerable<GummyKingdom.Models.Product>
+
+@{
+    ViewData["Title"] = "Gummy Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    
+        <h1>Gummy Kingdom</h1>
+        <h4>@Html.DisplayNameFor(model => model.Name)</h4>
+        <ul>
+            @foreach (var listProduct in Model)
+            {
+
+                <li>Name: @Html.DisplayFor(modelItem => listProduct.Name)</li>
+                <li>Price: @Html.DisplayFor(modelItem => listProduct.Cost)</li>
+                <li>Country of Origin: @Html.DisplayFor(modelItem => listProduct.Country)</li>
+
+            }
+        </ul>
+
+<p>@Html.ActionLink("Add new Product", "Create")</p>
+    
